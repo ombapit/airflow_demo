@@ -1,7 +1,5 @@
 from airflow.models import DAG
 from airflow.operators.python_operator import PythonOperator
-from airflow.operators.mysql_operator import MySqlOperator
-from airflow.hooks.dbapi_hook import DbApiHook
 from airflow.hooks.mysql_hook import MySqlHook
 from airflow.models import Variable
 
